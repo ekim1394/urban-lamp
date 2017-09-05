@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ekim.na.us.myApp"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.ekim.na.us.myApp"
         }
     },
     "dependent_plugins": {}

@@ -3,11 +3,11 @@ var Controller = function() {
 			self: null,
 			initialize: function() {
 				self = this;
-				console.log('Initializing controller')
+				console.log('Initializing controller');
 				self.bindEvents();
-				console.log("Binding events")
+				console.log("Binding events");
 				self.renderSearchView();
-				console.log('Rendered home page')
+				console.log('Rendered home page.');
 			},
 
 			bindEvents: function() {
@@ -19,7 +19,7 @@ var Controller = function() {
 				var $projectTemplate = null;
 				$("#content").load("./views/search-project-view.html", function(data) {
 						$projectTemplate = $('.task').remove();
-					}
+					});
 				}
 			}
 			controller.initialize();

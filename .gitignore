@@ -1,10 +1,1 @@
 .idea/
-.npmignore
-config.xml
-hooks/
-node_modules/
-package.json
-platforms/
-plugins/
-res/
-www/
